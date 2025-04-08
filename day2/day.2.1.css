@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+img,
+.card{
+    border: 5px solid black;
+    /*width: fit-content;*/
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.up{
+    margin-bottom: 50px;
+    gap: 10px;
+    display: flex;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}

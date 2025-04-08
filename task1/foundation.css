@@ -1,0 +1,25 @@
+button{
+    background-color: rgba(249, 249, 25, 0.968);
+    color: black;
+    border:  rgba(249, 249, 25, 0.968);
+}
+
+body{
+    height: 100svh;
+    background-color: rgb(201, 201, 7);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div1{
+    border: 2px solid black;
+    margin: 3%;
+    padding: 3%;
+    background-color: white;
+}
+
+div2{
+    justify-content: center;
+    align-items: center;
+}
